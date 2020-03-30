@@ -64,6 +64,9 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        </variation>
                                                     </label>
                                                 </subviews>
                                                 <variation key="heightClass=regular-widthClass=regular" spacing="10"/>
@@ -85,6 +88,9 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        </variation>
                                                     </label>
                                                 </subviews>
                                                 <variation key="heightClass=regular-widthClass=regular" spacing="10"/>
@@ -96,6 +102,7 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
+                                <variation key="heightClass=regular-widthClass=regular" spacing="25"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="e4C-5h-Prr">
                                 <rect key="frame" x="15" y="797" width="384" height="45"/>
@@ -116,7 +123,9 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="IMq-FX-0lv"/>
+                                    <constraint firstAttribute="height" constant="45" id="IMq-FX-0lv">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
                                     <constraint firstItem="yfF-9Q-NzG" firstAttribute="width" secondItem="aX5-AP-RbR" secondAttribute="width" id="Nda-dg-bVc"/>
                                     <constraint firstItem="yfF-9Q-NzG" firstAttribute="height" secondItem="aX5-AP-RbR" secondAttribute="height" id="YN7-NY-dxo"/>
                                 </constraints>
